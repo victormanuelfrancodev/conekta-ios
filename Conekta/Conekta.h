@@ -19,6 +19,7 @@
 @property (nonatomic, retain) NSString *baseURI;
 @property (nonatomic, retain) NSString *publicKey;
 @property (nonatomic, retain) UIViewController *delegate;
+@property (strong, nonatomic) WKWebView *webView;
 
 - (NSString *) deviceFingerprint;
 - (void) collectDevice;
